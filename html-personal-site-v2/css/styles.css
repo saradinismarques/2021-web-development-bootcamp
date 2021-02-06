@@ -1,0 +1,149 @@
+/*-----------------------------------------TAG SELECTOR-----------------------------------------*/
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: LightGray;
+    border-width: 5px;
+    width: 7%;
+}
+
+h1 {
+    font-family: Calibri;  
+    font-weight: 300;
+    color: #99ddcc;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Calibri;  
+    font-weight: 300;
+    color: #99ddcc;
+    font-size: 30px;
+}
+
+ul { 
+    line-height:150%
+}
+
+footer {
+    margin-top: auto;
+    padding: 0.3em;
+    background-color: #bedcfa;
+    color: white;
+}
+
+button {
+    font-weight: 150;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin: auto;
+    display: block;
+    color: rgb(143, 148, 153);
+    text-align: center;
+    padding:6px;
+    font-size:17px;
+}
+
+
+/*-----------------------------------------CLASS SELECTOR-----------------------------------------*/
+
+.main-font {
+    font-size: 20px;  
+    font-family: Calibri;  
+    font-weight: 300;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    height: 600px;
+    margin:0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.align-left {
+    display: inline-block; 
+    text-align: left; 
+}
+
+.top-right-position {
+    position:absolute;
+    top: 2%;
+    right: 10%;
+}
+
+.name-image {
+    margin: auto;
+    margin-top: 7%;
+}
+
+.profile-image {
+    position:absolute;
+    top: 6%;
+    left: 10%;
+}
+
+.icon-image {
+    width: 15px;
+}
+
+.main-link {
+    text-decoration: none;
+    color:#bedcfa;
+    font-weight: 500;
+}
+
+.other-page-link {  
+    font-size: 25px;  
+    font-family: Calibri;  
+    font-weight: 300;
+    text-decoration: none;
+    color: #99ddcc; 
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*-----------------------------------------ID SELECTOR-----------------------------------------*/
+#about-me-text {
+    width: 700px;
+    margin: auto;
+}
+
+#footer-table {
+    display:flex;
+    justify-content:center;
+    border-collapse: separate;
+    border-spacing: 100px 15px;
+}
+
+#copyright-font {
+    position: relative;
+    font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 14px;
+}

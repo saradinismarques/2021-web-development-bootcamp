@@ -1,0 +1,262 @@
+/*-----------------------------------------TAG SELECTOR-----------------------------------------*/
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(99, 99, 99);
+    height: 100%;
+}
+
+header {
+    position: relative;
+    height: 8rem;
+}
+
+h1 {
+    font-size: 5rem;
+    line-height: 1.7;
+    margin:5% auto 0 auto;
+    font-family: 'Poiret One', cursive;
+    color: #9b878c;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 1.16rem;
+    margin: 0 auto 20% 0;
+    color: #9b878c;
+    font-weight: 100;
+    padding-bottom: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    color: #9b878c;
+    font-size: 1.7rem;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #9b878c;
+}
+
+p {
+    line-height: 2;
+}
+
+
+/*-----------------------------------------CLASS SELECTOR-----------------------------------------*/
+
+/*============================================HEADER==============================================*/
+
+.header-image-position {
+    position:absolute;
+    top: 0.4rem;
+    left: 3.3rem;
+}
+
+.header-links-position {
+    position:absolute;
+    right: 1.5rem;
+}
+
+.header-content {
+    position: absolute;
+    margin-top: 25px;
+    left: 15px;
+    right: 15px;
+}
+
+.i-letter {
+    font-size: 3.7rem;
+    font-weight: 500;
+}
+
+.header-bold-link {
+    margin-right: 30px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #77676a;
+    font-size: 19px;  
+    font-weight: lighter;
+}
+
+.header-normal-link {  
+    margin-right: 30px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #9b878c;
+    font-size: 19px;  
+    font-weight: lighter;
+}
+
+.header-normal-link:hover {
+    color: #77676a;
+}
+
+
+/*=========================================TOP-CONTAINER==========================================*/
+
+.top-container {
+    background-color: #d9ecf2;
+    position: relative;
+    height: 100%;
+}
+
+.amusement-park {
+    position: absolute;
+    width: 52rem;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/*=======================================PROFILE-CONTAINER========================================*/
+
+.profile-container {
+    background-color: #f8e4b7;
+    position: relative;
+    height: 100%;
+}
+
+.profile {
+    display: inline-block;
+    margin: 10.5% auto;
+    left: 0;
+    right: 0;
+}
+
+.intro {
+    width: 25rem;
+    margin: 40px auto auto auto;
+}
+
+/*=======================================SKILLS-CONTAINER=========================================*/
+
+.skills-container {
+    background-color: #f8c6bf;
+    position: relative;
+    height: 100%;
+}
+
+
+.skills {
+    display: inline-block;
+    margin: 3.5% auto;
+    left: 0;
+    right: 0;
+}
+
+
+.skill-row {
+    width: 47%;
+    margin: 95px auto;
+    text-align: left;
+}
+
+.programming-img {
+    width: 20%;
+    float: left;
+    margin-right: 70px;
+}
+
+.web-dev-img {
+    width: 25%;
+    float: right;
+    margin-left: 70px;
+}
+
+/*=====================================CONTACT-ME-CONTAINER=======================================*/
+
+.contact-me-container {
+    background-color: #d3e7ad;
+    position: relative;
+}
+
+.contact-me {
+    display: inline-block;
+    margin: 8.7% auto 12.7% auto;
+    left: 0;
+    right: 0;
+}
+
+.contact-message {
+    width: 100%;
+    margin: 50px  auto;
+}
+
+.btn {
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    color: #9B878C;
+    font-family: 'Open Sans', sans-serif;
+    width: 170px;
+    font-size: 19px;
+    font-weight: lighter;
+    padding: 1px;
+    background-color: #C5D9F6;
+    text-shadow: 1px 1px 20px #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    color: #9B878C;
+    background: #bad3f8;
+    text-decoration: none;
+ }
+
+/*========================================BOTTOM-CONTAINER========================================*/
+
+.bottom-container {
+    position: relative;
+    background-color: #9b878c;
+    padding: 3% 0 4%;
+    height: 10%;
+}
+
+.footer {
+    display: inline-block;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #C5D9F6;
+    margin: 10px 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link:hover {
+    color: #D9ECF2;
+}
+
+.copyright {
+    color: #C5D9F6;
+    font-size: 0.75rem;
+    padding: 47px 0 0 0;
+}
+
+/*==========================================OTHER-PAGES===========================================*/
+ .under-construction {
+    margin: 11.5% auto;
+ }
+
+
+
+
+
+
+
+ 
+
