@@ -49,7 +49,7 @@ app.post("/", function (req,res) {
         //If all goes well logging the contact's id
         res.sendFile(__dirname + "/success.html");
 
-        console.log(`Successfully added contact as an audience member. The contact's id is ${response.id}.`);
+        console.log("Successfully added contact as an audience member. The contact's id is ${response.id}.");
     };
 
     //Running the function and catching the errors (if any)
