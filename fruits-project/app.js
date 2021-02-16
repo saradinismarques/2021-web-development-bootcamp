@@ -89,7 +89,7 @@ Fruit.insertMany([kiwi, orange, banana], function(err) {
   if(err) {
     console.log(err);
   } else {
-    console.log("Succesfully saved all the fruits to fruitsDB")
+    console.log("Successfully saved all the fruits to fruitsDB")
   }
 });
 
